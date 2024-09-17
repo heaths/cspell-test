@@ -1,0 +1,13 @@
+{
+  "name": "cspell-test",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "cspell": "^8.14.3"
+  },
+  "scripts": {
+    "lint": "cspell lint --verbose",
+    "lint:vscode": "cspell lint --config .vscode/cspell.json --verbose"
+  }
+}
